@@ -12,7 +12,7 @@ Klonen Sie dieses Repository mit
 
 Implementieren Sie zwei Funktionen in der Datei `shop.py` - Sie finden dort Anweisungen in den Kommentaren (mit TODO markiert). Die Funktionen sollen die folgenden Aufgaben erfüllen:
 
-- `home` zeigt das Template `home.html` an. Dieses Template soll eine Liste von Produkten anzeigen. Die Liste soll aus dem Dictionaty `produkte` kommen, das in der Datei `shop.py` definiert ist. Die Liste soll den Namen und den Preis der Produkte enthalten. Der Name soll ein Link sein, der auf die Detailseite des Produkts verweist.
+- `home` zeigt das Template `home.html` an. Dieses Template soll eine Liste von Produkten anzeigen. Die Liste soll aus dem Dictionary `produkte` kommen, das in der Datei `shop.py` definiert ist. Die Liste soll den Namen und den Preis der Produkte enthalten. Der Name soll ein Link sein, der auf die Detailseite des Produkts verweist.
 
 - `details(id)` zeigt das Template `details.html` an. Dieses Template soll die Details eines Produkts mit der Nummer `id` anzeigen. Die Details sollen aus dem Dictionary `produkte` kommen, das in der Datei `shop.py` definiert ist. Die Details sollen den Namen, den Preis und ein Bild des Produkts enthalten. Falls die Nummer `id` nicht existiert, soll eine Fehlermeldung angezeigt werden und der Status Code 404 zurückgegeben werden.
 
